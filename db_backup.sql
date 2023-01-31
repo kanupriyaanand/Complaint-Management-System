@@ -149,7 +149,7 @@ CREATE TABLE `handyman_info` (
 
 LOCK TABLES `handyman_info` WRITE;
 /*!40000 ALTER TABLE `handyman_info` DISABLE KEYS */;
-INSERT INTO `handyman_info` VALUES (1,'handyman@iiitb.org','thanks123','John Doe','+918882229991','Carpenter',0,0,0,0,0,0),(2,'Bmahesh@iiitb.org','thanks123','Mahesh Bhupati','918889991112','Electrician',0,0,0,0,0,0),(3,'hkiran@iiitb.org','thanks123','Kiran Rao','917282991112','Electrician',0,0,0,0,0,0);
+INSERT INTO `handyman_info` VALUES (1,'handyman@iiitb.org','thanks123','John Doe','+918882229991','Staff',0,0,0,0,0,0),(2,'Bmahesh@iiitb.org','thanks123','Mahesh Bhupati','918889991112','Councelor',0,0,0,0,0,0),(3,'hkiran@iiitb.org','thanks123','Kiran Rao','917282991112','Councelor',0,0,0,0,0,0);
 /*!40000 ALTER TABLE `handyman_info` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -173,7 +173,7 @@ CREATE TABLE `master_data` (
 
 LOCK TABLES `master_data` WRITE;
 /*!40000 ALTER TABLE `master_data` DISABLE KEYS */;
-INSERT INTO `master_data` VALUES ('Hostel','Carpenter','Table'),('Hostel','Carpenter','Chair'),('Hostel','Carpenter','Cupboard'),('Hostel','Electrician','Fan'),('Hostel','Electrician','Tubelight'),('Hostel','Electrician','Regulator'),('Personnel','Electrician','Iron'),('Personnel','Electrician','Kettle'),('Personnel','Electrician','Heater'),('Personnel','Carpenter','Table'),('Hostel','Carpenter','Door');
+INSERT INTO `master_data` VALUES ('Hostel','Staff','Table'),('Hostel','Staff','Chair'),('Hostel','Staff','Cupboard'),('Hostel','Councelor','Fan'),('Hostel','Councelor','Tubelight'),('Hostel','Councelor','Regulator'),('Personnel','Councelor','Iron'),('Personnel','Councelor','Kettle'),('Personnel','Councelor','Heater'),('Personnel','Staff','Table'),('Hostel','Staff','Door');
 /*!40000 ALTER TABLE `master_data` ENABLE KEYS */;
 UNLOCK TABLES;
 

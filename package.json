@@ -10,8 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.2",
-    "socket.io": "^2.0.4",
-    "mysql":"*"
+    "express-session": "^1.17.3",
+    "mysql": "*",
+    "socket.io": "^2.0.4"
   },
   "devDependencies": {
     "nodemon": "^1.12.1"

@@ -12,7 +12,7 @@ app.use(bodyParser());
 var MySQL_Connection_Details;
 var con;
 fs.readFile('MySQL_Connection_Details','utf8',function(err, data) {
-    MySQL_Connection_Details=JSON.parse('{'+data+'}');
+    MySQL_Connection_Details=JSON.parse(data);
 	con = mysql.createConnection(
 		MySQL_Connection_Details
 	);
